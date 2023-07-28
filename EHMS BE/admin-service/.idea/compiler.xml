@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-service V2.0.0" />
+        <module name="demo-doctor" />
+        <module name="hospital-gatway" />
+        <module name="identity-service-patient" />
+        <module name="spring-boot-microservice-eureka" />
+        <module name="receptionist-service" />
+        <module name="identity-service" />
+        <module name="admin-service" />
+        <module name="record-person-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-parameters" />
+      <module name="admin-service V2.0.0" options="-parameters" />
+      <module name="demo-doctor" options="-parameters" />
+      <module name="hospital-gatway" options="-parameters" />
+      <module name="identity-service" options="-parameters" />
+      <module name="identity-service-patient" options="-parameters" />
+      <module name="receptionist-service" options="-parameters" />
+      <module name="record-person-service" options="-parameters" />
+      <module name="spring-boot-microservice-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>

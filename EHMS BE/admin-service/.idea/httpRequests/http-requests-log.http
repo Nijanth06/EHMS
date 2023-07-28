@@ -1,0 +1,192 @@
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T195409.200.json
+
+###
+
+GET http://localhost:9896/admin/hospitals?ids=6
+
+<> 2023-05-03T195335.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T184537.200.json
+
+###
+
+GET http://localhost:9896/admin/hospitals?ids=6
+
+<> 2023-05-03T184529.200.json
+
+###
+
+GET http://localhost:9897/auth/patient
+
+###
+
+GET http://localhost:9896/admin/Employees
+
+<> 2023-05-03T184521.400.json
+
+###
+
+GET http://localhost:9896/admin/allEmployeeCount
+
+<> 2023-05-03T184515.200.json
+
+###
+
+GET http://localhost:9896/admin/hospitals?ids=6
+
+<> 2023-05-03T175948.200.json
+
+###
+
+GET http://localhost:9896/admin/hospitals?ids=6
+
+<> 2023-05-03T175937.200.json
+
+###
+
+GET http://localhost:9896/admin/hospitals?ids=6,7
+
+<> 2023-05-03T175900.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T175510.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=[33,34]
+
+<> 2023-05-03T175503.400.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T175441.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175423.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T175403.200.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175224.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175220.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175219-1.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175219.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35
+
+<> 2023-05-03T175157.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=35,34
+
+<> 2023-05-03T175148.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34
+
+<> 2023-05-03T175123.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees?ids=33,34,35
+
+<> 2023-05-03T175102.404.json
+
+###
+
+GET http://localhost:9896/admin/Employees
+
+<> 2023-05-03T174825.404.json
+
+###
+
+GET http://localhost:9896/admin/allEmployeeCount
+
+<> 2023-05-03T174738.200.json
+
+###
+
+GET http://localhost:9896/admin/allEmployeeCount
+
+<> 2023-05-03T174421.200.json
+
+###
+
+GET http://localhost:9896/admin/Employee/Doctor
+
+<> 2023-05-02T140028.200.json
+
+###
+
+GET http://localhost:9896/admin/Employee/Doctor
+
+<> 2023-05-02T140018.200.json
+
+###
+
+GET http://localhost:9896/admin/Employee/Doctor
+
+<> 2023-05-02T134753.500.json
+
+###
+
+GET http://localhost:9896/admin/Employee/{Doctor}
+
+###
+
+GET http://localhost:9896/admin/Employee/{{Doctor}}
+
+###
+
+GET http://localhost:9896/admin/Employee/{{role}}
+
+###
+

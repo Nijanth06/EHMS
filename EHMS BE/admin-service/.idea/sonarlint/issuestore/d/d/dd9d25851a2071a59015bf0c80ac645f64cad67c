@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÍèıÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(Ğäøûÿÿÿÿ
+T
+java:S18745"9Remove this use of "authorizeRequests"; it is deprecated.(¿Ğ±ûÿÿÿÿ

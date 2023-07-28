@@ -1,0 +1,50 @@
+[
+  {
+    "id": 34,
+    "name": "Tom@gmail.com",
+    "email": "Tom@gmail.com",
+    "password": "$2a$10$XF.Y6o7dlDI28A5DBT2qtumcWo4wgln5OgQatEiSyc1oFylDzgfmu",
+    "title": "Mr",
+    "firstName": "Kamani",
+    "lastName": "Gunasena",
+    "address": "test Road",
+    "nic": "123123127V",
+    "mobileNumber": 1231231232,
+    "specialization": "abc",
+    "yearOfExp": 1,
+    "hospitalId": "Asiri",
+    "roles": "Doctor"
+  },
+  {
+    "id": 35,
+    "name": "projectbuddhika@gmail.com",
+    "email": "projectbuddhika@gmail.com",
+    "password": "$2a$10$S9t7LIxAdVrPWW55xl3tquB3imwS0WUWRkYeRE/pTe8kUd4EFlE4G",
+    "title": "Mr",
+    "firstName": "qwe",
+    "lastName": "qwe",
+    "address": "test Road",
+    "nic": "123123143V",
+    "mobileNumber": 1231231232,
+    "specialization": "abc",
+    "yearOfExp": 3,
+    "hospitalId": "Asiri",
+    "roles": "Doctor"
+  },
+  {
+    "id": 36,
+    "name": "Tomm@gmail.com",
+    "email": "Tomm@gmail.com",
+    "password": "$2a$10$XF.Y6o7dlDI28A5DBT2qtumcWo4wgln5OgQatEiSyc1oFylDzgfmu",
+    "title": "Mr",
+    "firstName": "Buddhika",
+    "lastName": "qwe",
+    "address": "qwe",
+    "nic": "888888888V",
+    "mobileNumber": 1231231232,
+    "specialization": "abc",
+    "yearOfExp": 3,
+    "hospitalId": "Asiri",
+    "roles": "Doctor"
+  }
+]

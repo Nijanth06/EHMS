@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../admin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../demo-doctor/pom.xml" />
+        <option value="$PROJECT_DIR$/../feedbackService/pom.xml" />
+        <option value="$PROJECT_DIR$/../hospital-gatway/pom.xml" />
+        <option value="$PROJECT_DIR$/../identity-service-staff/pom.xml" />
+        <option value="$PROJECT_DIR$/../identity-service patient/pom.xml" />
+        <option value="$PROJECT_DIR$/../receptionist-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-microservice-eureka/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="20" project-jdk-type="JavaSDK" />
+</project>

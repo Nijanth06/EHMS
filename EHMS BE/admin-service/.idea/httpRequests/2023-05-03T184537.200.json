@@ -1,0 +1,34 @@
+[
+  {
+    "id": 33,
+    "name": "buddhikad1999@gmail.com",
+    "email": "buddhikad1999@gmail.com",
+    "password": "$2a$10$QsbTuq0vT.aXcBbLJKJySOgECnmnXJTUzH.ekKY.hBxv3uCMtwIoq",
+    "title": "Mr",
+    "firstName": "Buddhika",
+    "lastName": "Ranaweera",
+    "address": "test Road",
+    "nic": "123123123V",
+    "mobileNumber": 1231231232,
+    "specialization": null,
+    "yearOfExp": 0,
+    "hospitalId": "6",
+    "roles": "Nurse"
+  },
+  {
+    "id": 34,
+    "name": "Tom@gmail.com",
+    "email": "Tom@gmail.com",
+    "password": "$2a$10$XF.Y6o7dlDI28A5DBT2qtumcWo4wgln5OgQatEiSyc1oFylDzgfmu",
+    "title": "Mr",
+    "firstName": "Kamani",
+    "lastName": "Gunasena",
+    "address": "test Road",
+    "nic": "123123127V",
+    "mobileNumber": 123123,
+    "specialization": "abc",
+    "yearOfExp": 1,
+    "hospitalId": "6",
+    "roles": "Doctor"
+  }
+]

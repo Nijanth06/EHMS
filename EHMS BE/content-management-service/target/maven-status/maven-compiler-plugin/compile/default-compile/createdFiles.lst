@@ -1,0 +1,10 @@
+com\MediaclRecord\enums\RestApiResponseStatus.class
+com\MediaclRecord\dto\MediRecordDto.class
+com\MediaclRecord\enums\Roles.class
+com\MediaclRecord\dto\patientRecordDto.class
+com\MediaclRecord\Enitity\MediRecords.class
+com\MediaclRecord\Repostry\patientRecordRepository.class
+com\MediaclRecord\Controller\MaterController.class
+com\MediaclRecord\RecordPersonIdentityServiceApplication.class
+com\MediaclRecord\Service\RecordServies.class
+com\MediaclRecord\Enitity\patientRecord.class

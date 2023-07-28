@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Record-Person-Servies/Record-Person-Servies/Record-Person-Servies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Record-Person-Servies/Record-Person-Servies/Record-Person-Servies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../demo-doctor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../demo-doctor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hospital-gatway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hospital-gatway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../identity-service patient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../identity-service patient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../identity-service-staff/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../identity-service-staff/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../receptionist-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../receptionist-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-microservice-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-microservice-eureka/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

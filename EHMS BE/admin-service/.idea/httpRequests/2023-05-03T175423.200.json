@@ -1,0 +1,18 @@
+[
+  {
+    "id": 35,
+    "name": "projectbuddhika@gmail.com",
+    "email": "projectbuddhika@gmail.com",
+    "password": "$2a$10$S9t7LIxAdVrPWW55xl3tquB3imwS0WUWRkYeRE/pTe8kUd4EFlE4G",
+    "title": "Mr",
+    "firstName": "qwe",
+    "lastName": "qwe",
+    "address": "test Road",
+    "nic": "123123143V",
+    "mobileNumber": 1231231232,
+    "specialization": "abc",
+    "yearOfExp": 3,
+    "hospitalId": "6",
+    "roles": "Doctor"
+  }
+]

@@ -1,0 +1,46 @@
+
+a
+java:S1192+"FDefine a constant instead of duplicating this literal "Admin" 5 times.(­¶¡Áüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶¦Žê
+V	java:S125"<This block of commented-out lines of code should be removed.(—•’Ðýÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(™Š‹…
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¹³þ€þÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(Ã€ÚÒþÿÿÿÿ
+Q	java:S125="<This block of commented-out lines of code should be removed.(¶§ùí
+Q	java:S125M"<This block of commented-out lines of code should be removed.(ª¿ží
+K
+java:S6437W"6Revoke and change this password, as it is compromised.(ðÓš
+E
+java:S1874W"0Remove this use of "signWith"; it is deprecated.(ðÓš
+L
+java:S6437\"6Revoke and change this password, as it is compromised.(î„‰
+D
+java:S1874\".Remove this use of "parser"; it is deprecated.(î„‰
+K
+java:S1874\"5Remove this use of "setSigningKey"; it is deprecated.(î„‰
+Q
+java:S6437b"6Revoke and change this password, as it is compromised.(¯¨ÿ‹ûÿÿÿÿ
+I
+java:S1874b".Remove this use of "parser"; it is deprecated.(¯¨ÿ‹ûÿÿÿÿ
+P
+java:S1874b"5Remove this use of "setSigningKey"; it is deprecated.(¯¨ÿ‹ûÿÿÿÿ
+L
+java:S6437g"6Revoke and change this password, as it is compromised.(î„‰
+D
+java:S1874g".Remove this use of "parser"; it is deprecated.(î„‰
+K
+java:S1874g"5Remove this use of "setSigningKey"; it is deprecated.(î„‰
+V	java:S125l"<This block of commented-out lines of code should be removed.(ºŽØçúÿÿÿÿ
+P	java:S125r"<This block of commented-out lines of code should be removed.(©±èS
+Q
+java:S6437{"6Revoke and change this password, as it is compromised.(Öµ–ÿÿÿÿÿ
+I
+java:S1874{".Remove this use of "parser"; it is deprecated.(Öµ–ÿÿÿÿÿ
+P
+java:S1874{"5Remove this use of "setSigningKey"; it is deprecated.(Öµ–ÿÿÿÿÿ
+U
+java:S1874}":Remove this use of "SignatureException"; it is deprecated.(‹µ×‡øÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'java.time.Instant.now'.(ÅÒÈžúÿÿÿÿ
+P
+java:S1068"5Remove this unused "jwtExpirationInMs" private field.(€ÛÝýÿÿÿÿ
