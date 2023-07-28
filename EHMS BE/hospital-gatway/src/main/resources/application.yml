@@ -1,0 +1,86 @@
+spring:
+ cloud:
+   gateway:
+     routes:
+
+
+
+
+       - id: ADMIN-SERVICES
+         uri: lb://ADMIN-SERVICES
+         predicates:
+           - Path=/admin/**
+         filters:
+           - AuthenticationFilter
+
+
+       - id: identity-service
+         uri: lb://IDENTITY-SERVICE
+         predicates:
+           - Path=/api/**
+           
+         filters:
+           - AuthenticationFilter
+
+
+
+       - id: APPOINMENT-SERVICE
+         uri: lb://APPOINMENT-SERVICE
+         predicates:
+             - Path=/appointment/**
+         filters:
+             - AuthenticationFilter
+
+       - id: identity-service
+         uri: lb://IDENTITY-SERVICE-Patient
+         predicates:
+           - Path=/auth/**  
+         filters:
+           - AuthenticationFilter
+           
+       - id: identity-service
+         uri: lb://IDENTITY-SERVICE-Patient
+         predicates:
+           - Path=/patients/**
+         filters:
+           - AuthenticationFilter
+           
+       - id: CONTETNT-SERVICE
+         uri: lb://CONTETNT-SERVICE
+         predicates:
+             - Path=/medical/**
+         filters:
+             - AuthenticationFilter
+             
+       - id: RECEPTIONIST-SERVICE
+         uri: lb://RECEPTIONIST-SERVICE
+         predicates:
+             - Path=/receptionist/**
+         filters:
+             - AuthenticationFilter
+          
+       - id: DOCTOR-SERVICES
+         uri: lb://DOCTOR-SERVICES
+         predicates:
+           - Path=/doctor/**
+         filters:
+           - AuthenticationFilter
+           
+       - id: ALERT-SERVICES
+         uri: lb://ALERT-SERVICES
+         predicates:
+           - Path=/alert/**
+         filters:
+           - AuthenticationFilter
+
+
+
+
+
+ application:
+   name: API-GATEWAY
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka/

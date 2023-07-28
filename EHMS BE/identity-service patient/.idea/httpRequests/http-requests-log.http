@@ -1,0 +1,20 @@
+GET http://localhost:9897/auth/patient?ids=2
+
+###
+
+GET http://localhost:9897/auth/patient?ids=2
+
+###
+
+GET http://localhost:9897/auth/patient?ids=1,2
+
+###
+
+GET http://localhost:9897/auth/patient?ids=2
+
+###
+
+GET http://localhost:9897/auth/patient?ids=2
+
+###
+

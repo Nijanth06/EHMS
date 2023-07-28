@@ -1,0 +1,58 @@
+2023-06-29T09:55:05.211+05:30  INFO 6704 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T10:00:05.154+05:30  INFO 6704 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T10:05:04.812+05:30  INFO 6704 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T10:32:48.219+05:30  INFO 6704 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T11:50:58.967+05:30  INFO 26528 --- [main] c.h.h.HospitalGatwayApplication          : Starting HospitalGatwayApplication using Java 19.0.2 with PID 26528 (C:\Users\chamodbalasuriya\Desktop\Sprint 6 new\ehms_team_h\Backend\hospital-gatway\target\classes started by CHAMODBALASURIYA in C:\Users\chamodbalasuriya\Desktop\Sprint 6 new\ehms_team_h\Backend\spring-boot-microservice-eureka)
+2023-06-29T11:50:58.974+05:30  INFO 26528 --- [main] c.h.h.HospitalGatwayApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-29T11:51:04.223+05:30  INFO 26528 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef7fa747-427f-3b52-a4cb-af6e3196274b
+2023-06-29T11:51:04.460+05:30  INFO 26528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-29T11:51:04.464+05:30  INFO 26528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-29T11:51:04.504+05:30  INFO 26528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-29T11:51:09.133+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-06-29T11:51:09.134+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-06-29T11:51:09.134+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-06-29T11:51:09.135+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-06-29T11:51:09.136+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-06-29T11:51:09.136+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-06-29T11:51:09.136+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-06-29T11:51:09.137+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-06-29T11:51:09.137+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-06-29T11:51:09.138+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-06-29T11:51:09.138+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-06-29T11:51:09.139+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-06-29T11:51:09.140+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-06-29T11:51:09.140+05:30  INFO 26528 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-06-29T11:51:10.176+05:30  INFO 26528 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-29T11:51:10.805+05:30  INFO 26528 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-29T11:51:10.896+05:30  WARN 26528 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-29T11:51:11.089+05:30  INFO 26528 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-29T11:51:11.460+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-29T11:51:11.481+05:30  INFO 26528 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T11:51:11.557+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-06-29T11:51:11.558+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-06-29T11:51:11.558+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-06-29T11:51:11.559+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-06-29T11:51:11.559+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-06-29T11:51:11.560+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-06-29T11:51:11.560+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-06-29T11:51:13.463+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-29T11:51:13.469+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-06-29T11:51:13.477+05:30  INFO 26528 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-06-29T11:51:13.500+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1688019673491 with initial instances count: 0
+2023-06-29T11:51:13.506+05:30  INFO 26528 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2023-06-29T11:51:13.508+05:30  INFO 26528 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1688019673508, current=UP, previous=STARTING]
+2023-06-29T11:51:13.515+05:30  INFO 26528 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/192.168.1.167: registering service...
+2023-06-29T11:51:13.983+05:30  INFO 26528 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/192.168.1.167 - registration status: 204
+2023-06-29T11:51:14.184+05:30  INFO 26528 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-06-29T11:51:14.187+05:30  INFO 26528 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-06-29T11:51:14.948+05:30  INFO 26528 --- [main] c.h.h.HospitalGatwayApplication          : Started HospitalGatwayApplication in 20.747 seconds (process running for 23.472)
+2023-06-29T11:51:43.480+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-06-29T11:51:43.481+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-06-29T11:51:43.483+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-06-29T11:51:43.483+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-06-29T11:51:43.484+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-06-29T11:51:43.484+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-06-29T11:51:43.484+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-06-29T11:51:43.531+05:30  INFO 26528 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-29T11:56:11.609+05:30  INFO 26528 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-29T12:01:11.645+05:30  INFO 26528 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

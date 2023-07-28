@@ -1,0 +1,530 @@
+2023-07-18T09:04:57.553+05:30  INFO 14092 --- [main] c.h.h.HospitalGatwayApplication          : Starting HospitalGatwayApplication using Java 19.0.2 with PID 14092 (C:\Users\SAJEEVANVIJAYAKUMAR\Desktop\EHMS-All\ehms_team_h-sprint6\Backend\hospital-gatway\target\classes started by SAJEEVANVIJAYAKUMAR in C:\Users\SAJEEVANVIJAYAKUMAR\Desktop\EHMS-All\ehms_team_h-sprint6\Backend\hospital-gatway)
+2023-07-18T09:04:57.566+05:30  INFO 14092 --- [main] c.h.h.HospitalGatwayApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-07-18T09:04:59.995+05:30  INFO 14092 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aecb2ab-b1b3-3679-a66a-f8120ed0a747
+2023-07-18T09:05:00.144+05:30  INFO 14092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:05:00.146+05:30  INFO 14092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:05:00.151+05:30  INFO 14092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:05:01.993+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-07-18T09:05:01.993+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-07-18T09:05:01.993+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-07-18T09:05:01.994+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-07-18T09:05:01.994+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-07-18T09:05:01.994+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-07-18T09:05:01.994+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-18T09:05:01.995+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-07-18T09:05:01.996+05:30  INFO 14092 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-18T09:05:02.688+05:30  INFO 14092 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-18T09:05:03.088+05:30  INFO 14092 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-18T09:05:03.142+05:30  WARN 14092 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-18T09:05:03.243+05:30  INFO 14092 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-18T09:05:03.313+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-18T09:05:03.324+05:30  INFO 14092 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:05:03.370+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-18T09:05:03.370+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-18T09:05:03.370+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-18T09:05:03.370+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-18T09:05:03.371+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-18T09:05:03.371+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-18T09:05:03.371+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-18T09:05:04.298+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-18T09:05:04.301+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-18T09:05:04.305+05:30  INFO 14092 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-18T09:05:04.313+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689651304311 with initial instances count: 0
+2023-07-18T09:05:04.315+05:30  INFO 14092 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2023-07-18T09:05:04.316+05:30  INFO 14092 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689651304316, current=UP, previous=STARTING]
+2023-07-18T09:05:04.319+05:30  INFO 14092 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5: registering service...
+2023-07-18T09:05:04.551+05:30  INFO 14092 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5 - registration status: 204
+2023-07-18T09:05:04.823+05:30  INFO 14092 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-07-18T09:05:04.824+05:30  INFO 14092 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-07-18T09:05:05.208+05:30  INFO 14092 --- [main] c.h.h.HospitalGatwayApplication          : Started HospitalGatwayApplication in 8.803 seconds (process running for 10.363)
+2023-07-18T09:05:34.306+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-18T09:05:34.307+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-18T09:05:34.307+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-18T09:05:34.307+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-18T09:05:34.307+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-18T09:05:34.307+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-07-18T09:05:34.308+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-18T09:05:34.338+05:30  INFO 14092 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-18T09:10:03.384+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:15:03.393+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:20:03.396+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:21:44.089+05:30  WARN 14092 --- [reactor-http-nio-4] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T09:21:44.090+05:30  WARN 14092 --- [reactor-http-nio-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T09:21:44.269+05:30  WARN 14092 --- [reactor-http-nio-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T09:21:44.271+05:30  WARN 14092 --- [reactor-http-nio-4] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T09:25:03.400+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:30:03.402+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:35:03.406+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:40:03.408+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:45:03.414+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:49:35.387+05:30 ERROR 14092 --- [reactor-http-nio-4] a.w.r.e.AbstractErrorWebExceptionHandler : [0a39596a-359723]  500 Server Error for HTTP GET "/auth/patient?ids=1"
+
+java.lang.RuntimeException: missing authorization header
+	at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/auth/patient?ids=1" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:117) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:158) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:206) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:887) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2205) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1006) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:710) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:633) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:228) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-07-18T09:50:03.428+05:30  INFO 14092 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:50:05.651+05:30 ERROR 14092 --- [reactor-http-nio-4] a.w.r.e.AbstractErrorWebExceptionHandler : [0a39596a-364339]  500 Server Error for HTTP GET "/auth/patient?id=1"
+
+java.lang.RuntimeException: missing authorization header
+	at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/auth/patient?id=1" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:117) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:158) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:206) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:887) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2205) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1006) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:710) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:633) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:228) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-07-18T09:51:11.636+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-18T09:51:11.641+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2023-07-18T09:51:11.642+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689654071642, current=DOWN, previous=UP]
+2023-07-18T09:51:11.643+05:30  INFO 14092 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5: registering service...
+2023-07-18T09:51:11.668+05:30  INFO 14092 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5 - registration status: 204
+2023-07-18T09:51:13.744+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-18T09:51:16.762+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-07-18T09:51:16.811+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5 - deregister  status: 200
+2023-07-18T09:51:16.819+05:30  INFO 14092 --- [RMI TCP Connection(57)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-07-18T09:51:23.864+05:30  INFO 17468 --- [main] c.h.h.HospitalGatwayApplication          : Starting HospitalGatwayApplication using Java 19.0.2 with PID 17468 (C:\Users\SAJEEVANVIJAYAKUMAR\Desktop\EHMS-All\ehms_team_h-sprint6\Backend\hospital-gatway\target\classes started by SAJEEVANVIJAYAKUMAR in C:\Users\SAJEEVANVIJAYAKUMAR\Desktop\EHMS-All\ehms_team_h-sprint6\Backend\hospital-gatway)
+2023-07-18T09:51:23.866+05:30  INFO 17468 --- [main] c.h.h.HospitalGatwayApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-07-18T09:51:25.366+05:30  INFO 17468 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aecb2ab-b1b3-3679-a66a-f8120ed0a747
+2023-07-18T09:51:25.467+05:30  INFO 17468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:51:25.469+05:30  INFO 17468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:51:25.471+05:30  INFO 17468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-18T09:51:26.798+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-07-18T09:51:26.798+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-07-18T09:51:26.799+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-07-18T09:51:26.800+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-18T09:51:26.800+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-18T09:51:26.800+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-07-18T09:51:26.800+05:30  INFO 17468 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-18T09:51:27.368+05:30  INFO 17468 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-18T09:51:27.708+05:30  INFO 17468 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-18T09:51:27.750+05:30  WARN 17468 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-18T09:51:27.847+05:30  INFO 17468 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-18T09:51:27.932+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-18T09:51:27.945+05:30  INFO 17468 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T09:51:27.992+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-18T09:51:27.992+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-18T09:51:27.992+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-18T09:51:27.992+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-18T09:51:27.993+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-18T09:51:27.993+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-18T09:51:27.993+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-18T09:51:28.682+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-18T09:51:28.687+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-18T09:51:28.691+05:30  INFO 17468 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-18T09:51:28.699+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1689654088698 with initial instances count: 6
+2023-07-18T09:51:28.701+05:30  INFO 17468 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2023-07-18T09:51:28.702+05:30  INFO 17468 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1689654088702, current=UP, previous=STARTING]
+2023-07-18T09:51:28.706+05:30  INFO 17468 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5: registering service...
+2023-07-18T09:51:28.770+05:30  INFO 17468 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/172.20.10.5 - registration status: 204
+2023-07-18T09:51:29.090+05:30  INFO 17468 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-07-18T09:51:29.092+05:30  INFO 17468 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-07-18T09:51:29.371+05:30  INFO 17468 --- [main] c.h.h.HospitalGatwayApplication          : Started HospitalGatwayApplication in 6.209 seconds (process running for 7.127)
+2023-07-18T09:56:27.997+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:01:28.000+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:06:28.007+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:06:52.965+05:30 ERROR 17468 --- [reactor-http-nio-6] a.w.r.e.AbstractErrorWebExceptionHandler : [d5374eb9-92831]  500 Server Error for HTTP POST "/admin/refreshToken"
+
+java.lang.RuntimeException: missing authorization header
+	at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/admin/refreshToken" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at com.hospital.hospitalgatway.filter.AuthenticationFilter.lambda$0(AuthenticationFilter.java:35) ~[classes/:na]
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:117) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:158) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:206) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:887) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2205) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1006) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:710) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:633) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:228) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-07-18T10:11:28.017+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:44:24.314+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:48:20.287+05:30  WARN 17468 --- [reactor-http-nio-2] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T10:48:20.287+05:30  WARN 17468 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T10:48:20.305+05:30  WARN 17468 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T10:48:20.307+05:30  WARN 17468 --- [reactor-http-nio-2] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: APPOINMENT-SERVICE
+2023-07-18T10:49:24.320+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:54:24.322+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T10:59:24.363+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T11:04:24.371+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T11:09:24.383+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T11:14:24.386+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T11:19:24.397+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-18T11:24:24.411+05:30  INFO 17468 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
