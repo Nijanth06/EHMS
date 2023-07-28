@@ -1,0 +1,10 @@
+.table {
+    margin: auto;
+    width: 95% !important; 
+    align-items: center;
+    box-shadow: 0 5px 10px gray;
+ }
+
+ .full{
+    background-color: antiquewhite;
+ }

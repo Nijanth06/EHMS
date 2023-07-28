@@ -1,0 +1,171 @@
+:root {
+  --PrimaryColor: hsl(205, 100%, 65%);
+  --HoverColor: hsl(205, 100%, 65%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --grayText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+.navBarSection .header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--whiteColor);
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  margin-top: -25px;
+}
+
+.navBarSection .header .logoDiv .logo {
+  color: var(--whiteColor);
+  font-weight: 500;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBarSection .header .logoDiv .logo .icon {
+  color: var(--PrimaryColor);
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.navBarSection .header .navBar {
+  margin-top: 10px;
+}
+
+/* Spider Man done Navigation */
+
+.navBarSection .header .navBar .navLists .navItem .navLink {
+  color: var(--PrimaryColor);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+/* Spider Man done Buttons*/
+
+.navBarSection .header .navBar .headerBtns {
+  flex-direction: row;
+}
+
+.navBarSection .header .navBar .headerBtns .btn {
+  margin-right: 1rem;
+  background: none;
+  border: 1px solid var(--PrimaryColor);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.navBarSection .header .navBar .headerBtns .btn a {
+  color: var(--PrimaryColor);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navBarSection .header .navBar .headerBtns .btn:hover {
+  background: var(--PrimaryColor);
+  color: var(--whiteColor);
+}
+
+.navBarSection .header .navBar .headerBtns .btn a:hover {
+  color: var(--whiteColor);
+  text-decoration: none;
+}
+
+/* Spider Man done */
+
+@media screen and (max-width: 760px) {
+  .navBarSection .header .navBar {
+    background: var(--greyBg);
+    position: absolute;
+    height: 100vh;
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+    left: -500%;
+    box-shadow: 0 2px 4px rgba(179, 179, 179, 0.904);
+    transition: 0.5s ease;
+    z-index: 1000;
+  }
+
+  .navBarSection .header .navBar.activeNavbar {
+    display: block;
+    left: 0;
+  }
+
+  .navBarSection .header .toggleNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .navBarSection .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    max-height: none;
+  }
+
+  .navBarSection .header .navBar .navLists .navItem {
+    padding: 1rem 0;
+  }
+
+  .navBarSection .header .navBar .navLists .navItem .navLink {
+    color: var(--textColor);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .navBarSection .header .navBar .navLists .navItem .navLink:hover {
+    color: var(--PrimaryColor);
+  }
+
+  .navBarSection .header .navBar .headerBtns {
+    flex-direction: column;
+  }
+
+  .navBarSection .header .navBar .headerBtns .btn {
+    margin-top: 1rem;
+  }
+
+  .navBarSection .header .navBar .headerBtns .btn a {
+    font-family: 600;
+  }
+
+  .navBarSection .header .navBar .headerBtns .btn a:hover {
+    color: var(--whiteColor);
+  }
+
+  .navBarSection .header .navBar .headerBtns .loginBtn {
+    background: none;
+    border: 1px solid var(--PrimaryColor);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .navBarSection .header .navBar .headerBtns .loginBtn a {
+    color: var(--HoverColor);
+  }
+
+  .navBarSection .header .navBar .headerBtns .loginBtn:hover {
+    background: var(--HoverColor);
+  }
+}
+
+@media screen and (min-width: 761px) {
+  .navBarSection .header .toggleNavbar {
+    display: none;
+    /* Hide the toggle button in web view */
+  }
+}

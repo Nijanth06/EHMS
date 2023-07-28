@@ -1,0 +1,55 @@
+:root {
+    --PrimaryColorSpider: hsl(205, 100%, 55%);
+    --PrimaryColorSpiderHover: #007bff;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-pp {
+    display: flex;
+    text-transform: uppercase;
+    gap: 1rem;
+    color: var(--PrimaryColorSpider);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-content-pp p:hover{
+    color: var(--PrimaryColorSpiderHover);
+    text-decoration: underline;
+}
+
+.footer-content p{
+    letter-spacing: 1px;
+}
+
+.footer-content p span{
+    text-decoration: underline;
+    text-decoration-color: var(--PrimaryColorSpider);
+}
+
+.footer-content p span:hover{
+    text-decoration: underline;
+    color: var(--PrimaryColorSpider);
+    text-decoration-color: var(--PrimaryColorSpiderHover);
+}

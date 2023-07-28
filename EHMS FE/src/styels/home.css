@@ -1,0 +1,103 @@
+/* colors */
+
+:root {
+  --PrimaryColor: hsl(205, 100%, 65%);
+  --HoverColor: hsl(205, 100%, 65%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --grayText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)),
+    url("../assest/images/home.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  @media (max-width: 768px) {
+    /* Adjust the max-width value as needed */
+    height: 200vh;
+  }
+}
+
+.home .secContainer .homeText {
+  text-align: center;
+}
+
+.home .secContainer .homeText .title {
+  color: var(--whiteColor);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.home .secContainer .homeText .subTitle {
+  color: var(--whiteColor);
+  opacity: 0.9;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 1rem 0;
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.home .secContainer .homeText .btn {
+  padding: 0.6rem 1.5rem;
+}
+
+.home .secContainer .homeCard {
+  width: 80%;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: var(--whiteColor);
+  position: absolute;
+  gap: 1rem;
+  justify-content: center;
+  bottom: -35%;
+  transform: translate(-50%);
+  left: 50%;
+  box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+}
+
+.home .secContainer .homeCard .doctorDiv,
+.home .secContainer .homeCard .locDiv,
+.home .secContainer .homeCard .dateDiv {
+  width: 100%;
+}
+
+.home .secContainer .homeCard .doctorDiv label,
+.home .secContainer .homeCard .locDiv label,
+.home .secContainer .homeCard .dateDiv label {
+  display: block;
+  color: var(--textColor);
+  font-weight: 500;
+  font-size: 13px;
+  padding-bottom: -4rem;
+}
+
+.home .secContainer .homeCard .doctorDiv input,
+.home .secContainer .homeCard .locDiv input,
+.home .secContainer .homeCard .dateDiv input {
+  width: 100%;
+  background: var(--inputColor);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* .home .secContainer .homeCard .doctorDiv input::placeholder,
+  .home .secContainer .homeCard .locDiv input::placeholder
+   */

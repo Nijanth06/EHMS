@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   transition: .3s ease;
+
+}
+
+/* colors*/
+
+:root {
+   --PrimaryColor: hsl(205, 100%, 65%)(26 4% 4%);
+   --HoverColor: hsl(205, 100%, 65%);
+   --whiteColor: hsl(0, 0%, 100%);
+   --blackColor: hsl(0, 0%, 18%);
+   --textColor: hsl(240, 1%, 48%);
+   --whiteColorDeam: hsl(0, 0%, 93%);
+   --greyBg: hsl(0, 0%, 96%);
+   --grayText: rgb(190, 190, 190);
+   --inputColor: hsl(330, 12%, 97%);
+   --PrimaryColorSpider: hsl(205, 100%, 55%);
+   --PrimaryColorSpiderHover: #007bff;
+   ;
+}
+
+/* Default Styling*/
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+.selectio {
+   padding: 4rem 0 2rem;
+}
+
+.container {
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+}
+
+.icon {
+   font-size: 3rem;
+   cursor: pointer;
+   color: #1679e3;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   color: var(--blackColor);
+}
+
+.grid {
+   display: grid;
+   align-items: center;
+}
+
+.btn {
+   padding: .4rem 1.5rem;
+   background: var(--PrimaryColorSpider);
+   border: none;
+   outline: none;
+   border-radius: 3rem;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background: var(--PrimaryColorSpiderHover);
+}
+
+.btn a {
+   color: var(--whiteColor);
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+
+.btn:hover a {
+   text-decoration: none;
+   color: var(--whiteColor);
+}
+
+.secIntro {
+   max-width: 70%;
+   text-align: center;
+   margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle {
+   columns: var(--blackColor);
+   line-height: 1.5rem;
+   padding-bottom: .5rem;
+}
+
+.secIntro p {
+   font-size: 13px;
+   color: var(--textColor);
+   font-weight: 500;
+}
+
+img,
+video {
+   /* width: 100%; */
+   height: auto;
+}
+
+input {
+   font-size: 100%;
+}
+
+/* Emergency Btn*/
+.btn_emergency{
+   padding: .4rem 1.5rem;
+   background: var(--whiteColor);
+   border-color:red;
+   outline: none;
+   border-radius: 3rem;
+   cursor: pointer;
+   font-size: medium;
+   font-weight: 500;
+}
+
+.btn_emergency a {
+   color: rgba(255, 0, 0, 0.61) ;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.btn_emergency:hover a {
+   text-decoration: none;
+   color: var(--whiteColor);
+   font-weight: 500;
+}
+
+.btn_emergency:hover {
+   background: rgba(230, 26, 26, 0.808);
+}

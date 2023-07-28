@@ -1,0 +1,74 @@
+#contentBar {
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: white;
+
+    height: 100%;
+
+    background-position: center;
+
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+
+
+#tableList {
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+}
+
+
+
+
+#tableList span {
+
+    font-weight: bold;
+
+    font-size: 28px;
+
+    color: #000000;
+
+}
+
+
+
+
+#patientTable thead {
+
+    /* opacity: 0.9; */
+
+}
+
+
+
+
+#patientTable tbody {
+
+    opacity: 0.8;
+
+}
+
+
+
+
+#modelBack {
+
+    background-color: #aed6f1;
+
+}
+
+.modelBtn {
+
+    text-align: right;
+
+}
